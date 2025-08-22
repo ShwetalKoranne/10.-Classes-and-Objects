@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+class Circle {
+public:
+    double radius;
+
+    double area() {   
+        return 3.14159 * radius * radius;
+    }
+};
+
+int main() {
+    Circle c1;
+    cout << "Enter radius of the circle: ";
+    cin >> c1.radius;
+
+    cout << "Area of Circle = " << c1.area() << endl;
+    return 0;
+}
+
+
+OUTPUT
+
+Enter radius of the circle: 5
+Area of Circle = 78.5397
