@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+
+class Movie {
+public: 
+    string moviename;
+    string protaganist;
+    string antagonist;
+    string year;
+    float imdbrating;
+};
+
+int main() {
+    Movie m1;  
+    m1.moviename = "Harry Potter";
+    m1.protaganist = "Andrew Neiman";
+    m1.antagonist = "Terence Fletcher";
+    m1.year = "2014";   
+    m1.imdbrating = 8.5;
+    
+    Movie m2;  
+    m2.moviename = "Interstellar";
+    m2.protaganist = "Nina Sayers" ;
+    m2.antagonist = "Lily";
+    m2.year = "2010";   
+    m2.imdbrating = 8.0;
+
+    cout << "1st Movie: " << endl;
+    cout << m1.moviename << endl;
+    cout << m1.protaganist << endl;
+    cout << m1.antagonist << endl;
+    cout << m1.year << endl;
+    cout << m1.imdbrating << endl;
+    
+    cout << "\n2nd Movie: " << endl;
+    cout << m2.moviename << endl;
+    cout << m2.protaganist << endl;
+    cout << m2.antagonist << endl;
+    cout << m2.year << endl;
+    cout << m2.imdbrating << endl;
+
+    return 0;
+}
+
+
+OUTPUT
+
+1st Movie: 
+Harry Potter
+Andrew Neiman
+Terence Fletcher
+2014
+8.5
+
+2nd Movie: 
+Interstellar
+Nina Sayers
+Lily
+2010
+8
