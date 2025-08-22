@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+
+class Student {
+public: 
+    string name;
+    string branch;
+    string subject;
+    string year;
+    float result;
+};
+
+int main() 
+
+{
+    Student s1;  
+    s1.name = "Riya";
+    s1.branch = "E&TC";
+    s1.subject = "C++";
+    s1.year = "First Year";   
+    s1.result = 8.91;
+
+    cout << s1.name << endl;
+    cout << s1.branch << endl;
+    cout << s1.subject << endl;
+    cout << s1.year << endl;
+    cout << s1.result << endl;
+    
+    Student s2;  
+    s2.name = "Shwetal";
+    s2.branch = "E&TC";
+    s2.subject = "C++";
+    s2.year = "First Year";   
+    s2.result = 9.26;
+
+    cout << s2.name << endl;
+    cout << s2.branch << endl;
+    cout << s2.subject << endl;
+    cout << s2.year << endl;
+    cout << s2.result << endl;
+
+    return 0;
+}
+
+
+OUTPUT 
+
+Riya
+E&TC
+C++
+First Year
+8.91
+Shwetal
+E&TC
+C++
+First Year
+9.26
