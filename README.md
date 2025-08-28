@@ -41,7 +41,6 @@ This program demonstrates basic class usage in C++. A class Student is defined w
    
 
 # Program-2: Display Details of Two Cars
-## 📌 Program-2: Display Details of Movies
 
 ### Description
 This program demonstrates basic class usage in C++ by defining a **Movie** class with public data members: `title`, `director`, `year`, and `rating`.  
